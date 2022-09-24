@@ -1,0 +1,2 @@
+if bedwars["CheckPlayerType"](lplr) ~= "DEFAULT" then
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[HackerDetector] Detected Cheaters!","hacker")
